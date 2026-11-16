@@ -1,6 +1,8 @@
 
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,9 +39,9 @@ header p {
 }
 
 section {
-    padding: 35px 20px;
     max-width: 1100px;
     margin: auto;
+    padding: 35px 20px;
 }
 
 h2 {
@@ -62,9 +64,14 @@ h2 {
 
 .produto {
     background: white;
-    border-radius: 12px;
     padding: 15px;
+    border-radius: 12px;
     box-shadow: 0 3px 10px #ddd;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
 }
 
 .produto img {
@@ -82,18 +89,18 @@ h2 {
 }
 
 .produto p {
-    font-size: 14px;
     color: #666;
+    font-size: 14px;
 }
 
 .botao {
     display: inline-block;
-    color: white;
     padding: 15px 25px;
     margin: 8px;
     border-radius: 8px;
-    text-decoration: none;
+    color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .whatsapp {
@@ -128,6 +135,10 @@ footer {
     .produto img {
         height: 200px;
     }
+
+    section {
+        padding: 25px 15px;
+    }
 }
 </style>
 </head>
@@ -141,12 +152,16 @@ footer {
 
 <section>
     <h2>Sobre Nós</h2>
+
     <p class="descricao">
         Na Propósitos Personalizados, transformamos
         criatividade e carinho em produtos únicos.
         Trabalhamos com camisetas, canecas e diversos
         itens personalizados para presentes, eventos
         e ocasiões especiais.
+
+        Nosso objetivo é transformar suas ideias
+        em produtos especiais e cheios de significado.
     </p>
 </section>
 
@@ -156,36 +171,41 @@ footer {
     <div class="galeria">
 
         <div class="produto">
-            <img src="Camiseta Daniel 1.8.jpeg"
-                 alt="Camiseta Daniel 1:8">
+            <img
+              src="/propositos-personalizados./Camiseta%20Daniel%201.8.jpeg"
+              alt="Camiseta Daniel 1:8">
             <h3>Camiseta Daniel 1:8</h3>
             <p>Estampa personalizada</p>
         </div>
 
         <div class="produto">
-            <img src="Camiseta Efesios 6.jpeg"
-                 alt="Camiseta Efésios 6">
+            <img
+              src="/propositos-personalizados./Camiseta%20Efesios%206.jpeg"
+              alt="Camiseta Efésios 6">
             <h3>Camiseta Efésios 6</h3>
             <p>Estampa personalizada</p>
         </div>
 
         <div class="produto">
-            <img src="Camiseta Habacuque 3.10.jpeg"
-                 alt="Camiseta Habacuque 3:10">
+            <img
+              src="/propositos-personalizados./Camiseta%20Habacuque%203.10.jpeg"
+              alt="Camiseta Habacuque 3:10">
             <h3>Camiseta Habacuque 3:10</h3>
             <p>Estampa personalizada</p>
         </div>
 
         <div class="produto">
-            <img src="Camiseta Salmos 139.10.jpeg"
-                 alt="Camiseta Salmos 139:10">
+            <img
+              src="/propositos-personalizados./Camiseta%20Salmos%20139.10.jpeg"
+              alt="Camiseta Salmos 139:10">
             <h3>Camiseta Salmos 139:10</h3>
             <p>Estampa personalizada</p>
         </div>
 
         <div class="produto">
-            <img src="Camisetas Salmos 51.10.jpeg"
-                 alt="Camiseta Salmos 51:10">
+            <img
+              src="/propositos-personalizados./Camisetas%20Salmos%2051.10.jpeg"
+              alt="Camiseta Salmos 51:10">
             <h3>Camiseta Salmos 51:10</h3>
             <p>Estampa personalizada</p>
         </div>
@@ -199,15 +219,17 @@ footer {
     <div class="galeria">
 
         <div class="produto">
-            <img src="Caneca personalizada amorzinho.jpeg"
-                 alt="Caneca personalizada amorzinho">
+            <img
+              src="/propositos-personalizados./Caneca%20personalizada%20amorzinhos.jpeg"
+              alt="Caneca personalizada amorzinhos">
             <h3>Caneca Amorzinho</h3>
             <p>Presente personalizado</p>
         </div>
 
         <div class="produto">
-            <img src="Caneca seja forte e corajoso.jpeg"
-                 alt="Caneca Seja Forte e Corajoso">
+            <img
+              src="/propositos-personalizados./Caneca%20seja%20forte%20e%20corajoso.jpeg"
+              alt="Caneca Seja Forte e Corajoso">
             <h3>Seja Forte e Corajoso</h3>
             <p>Caneca personalizada</p>
         </div>
@@ -217,29 +239,38 @@ footer {
 
 <section>
     <h2>Outros Personalizados</h2>
+
     <p class="descricao">
-        Também trabalhamos com chaveiros, squeezes,
-        azulejos e outros produtos personalizados.
+        Também trabalhamos com chaveiros,
+        squeezes, azulejos e outros produtos
+        personalizados.
+
         Entre em contato e consulte nossas opções!
     </p>
 </section>
 
 <section id="contato">
     <h2>Entre em Contato</h2>
-    <p>Gostou dos nossos produtos? Solicite seu orçamento!</p>
 
-    <a class="botao whatsapp"
-       href="https://wa.me/5511930583801"
-       target="_blank"
-       rel="noopener noreferrer">
-        Fale pelo WhatsApp
+    <p>
+        Gostou dos nossos produtos?
+        Solicite seu orçamento!
+    </p>
+
+    <a
+      class="botao whatsapp"
+      href="https://wa.me/5511930583801"
+      target="_blank"
+      rel="noopener noreferrer">
+      Fale pelo WhatsApp
     </a>
 
-    <a class="botao instagram"
-       href="https://www.instagram.com/propositos_personalizados/"
-       target="_blank"
-       rel="noopener noreferrer">
-        Visite nosso Instagram
+    <a
+      class="botao instagram"
+      href="https://www.instagram.com/propositos_personalizados/"
+      target="_blank"
+      rel="noopener noreferrer">
+      Visite nosso Instagram
     </a>
 </section>
 
